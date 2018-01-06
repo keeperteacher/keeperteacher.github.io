@@ -1,0 +1,188 @@
+.center {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.green {
+    color: rgb(132, 175, 121);
+    text-align: center;
+}
+
+.white {
+    color: white;
+    text-align: center;
+}
+
+a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+}
+
+body {
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+#home-container-outer{
+	background: url("../img/soccer-background.jpg") no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    min-height: 100vh;
+}
+
+#home-container-inner {
+	  background-color: rgba(0,0,0,0.3);
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 100vh;
+}
+
+#home-name {
+    text-transform: uppercase;
+    margin-top: 200px;
+    font-size: 80px;
+    color: rgba(225,225,225,0.7);
+}
+
+#home-slogan {
+    margin-top: 180px;
+    font-size: 20px;
+    color: rgba(225,225,225,0.7);
+}
+
+#home-link-container {
+    margin-top: 30px;
+    font-size: 23px;
+}
+
+.home-link {
+    padding: 20px;
+    text-decoration: none;
+    color: rgba(225,225,225,0.7);
+}
+
+.home-link:visited {
+    color: rgba(225,225,225,0.7);;
+}
+
+.home-link:hover {
+    color: rgb(180, 249, 154);
+}
+
+#team-container {
+    text-align: center;
+    padding: 5% 0% 5% 0%;
+    width: 100%;
+}
+
+#team-container-inner {
+    width: 100%;
+    position: relative;
+}
+
+.member {
+    margin-top: 1%;
+    margin-bottom: 4%;
+    padding-top: 2%;
+    padding-right: 0.5%;
+    padding-left: 0.5%;
+    display: inline-block;
+    width: 18%;
+    min-width: 200px;
+    height: 220px;
+    vertical-align: top;
+}
+
+.img-circle {
+    box-shadow: 5px 5px 5px #888888;
+    height: 150px;
+    width: 150px;
+}
+
+#about-container {
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+}
+
+#about-container-inner {
+    position: absolute;
+    padding: 5% 0% 5% 0%;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0,0.3);
+}
+
+#video-container {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1000;
+    top 0;
+    left 0;
+    overflow: hidden;
+}
+
+#video {
+  top 0;
+  left 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#design-container {
+    position: relative;
+    padding: 5% 0% 5% 0%;
+    background-color: white;
+}
+
+#design-container-inner {
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.inline {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+#contact-container {
+    width: 100%;
+    position: absolute;
+    background-color: rgb(82, 96, 77);
+}
+
+#contact-container-inner {
+    text-align: center;
+    position: relative;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding: 10px;
+}
+
+@media (max-width: 374px) {
+    .divider{display:none;}
+    #home-link-container{margin-top:30vh;}
+}
+
+@media (max-width: 768px) {
+    #home-name{font-size:35px;}
+    .inline{margin-left:0;}
+    
+}
