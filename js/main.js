@@ -10,6 +10,9 @@ $(document).ready(function() {
     		case "about-link":
     			clicked = $("#about-container");
     			break;
+    		case "design-link":
+    			clicked = $("#design-container");
+    			break;
     		case "contact-link":
     			clicked = $("#contact-container");
     			break;

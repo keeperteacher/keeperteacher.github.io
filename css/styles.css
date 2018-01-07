@@ -44,20 +44,19 @@ body {
 }
 
 #home-name {
-    text-transform: uppercase;
-    margin-top: 200px;
+    margin-top: 220px;
     font-size: 80px;
     color: rgba(225,225,225,0.7);
 }
 
 #home-slogan {
-    margin-top: 180px;
+    margin-top: 200px;
     font-size: 20px;
     color: rgba(225,225,225,0.7);
 }
 
 #home-link-container {
-    margin-top: 30px;
+    margin-top: 40px;
     font-size: 23px;
 }
 
@@ -106,54 +105,39 @@ body {
 }
 
 #about-container {
-    position: relative;
     width: 100%;
-    min-height: 500px;
 }
 
 #about-container-inner {
-    position: absolute;
-    padding: 5% 0% 5% 0%;
+    position: relative;
+    padding: 5% 10% 8% 10%;
     z-index: 1000;
     width: 100%;
     height: 100%;
-    text-align: center;
     color: white;
-    background-color: rgba(0,0,0,0.3);
-}
-
-#video-container {
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1000;
-    top 0;
-    left 0;
-    overflow: hidden;
-}
-
-#video {
-  top 0;
-  left 0;
-  min-width: 100%;
-  min-height: 100%;
+    background-color: black;
 }
 
 #design-container {
     position: relative;
-    padding: 5% 0% 5% 0%;
+    padding: 5% 10% 5% 10%;
     background-color: white;
 }
 
 #design-container-inner {
     position: relative;
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 50px;
+    width: 100%;
     margin-bottom: 80px;
-    text-align: center;
+}
+
+.img-thumbnail {
+    width: 400px;
+    height: 400px;
+}
+
+.design {
+    position: relative;
+    padding: 2% 0% 2% 0%;
 }
 
 .inline {
@@ -179,10 +163,17 @@ body {
 @media (max-width: 374px) {
     .divider{display:none;}
     #home-link-container{margin-top:30vh;}
+    .img-thumbnail {
+        width: 340px;
+        height: 340px;
+    }
 }
 
 @media (max-width: 768px) {
     #home-name{font-size:35px;}
     .inline{margin-left:0;}
+    .design{text-align:center;}
+    .list{text-align:left;}
+}
     
 }

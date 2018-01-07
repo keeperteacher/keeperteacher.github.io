@@ -27,6 +27,8 @@
           <span class="divider"> | </span>
           <a id="about-link" class="home-link" href="#"><span>about</span></a>
           <span class="divider"> | </span>
+          <a id="design-link" class="home-link" href="#"><span>design</span></a>
+          <span class="divider"> | </span>
           <a id="contact-link" class="home-link" href="#"><span>contact</span></a>
         </div>
         <div id="home-slogan">
@@ -37,6 +39,11 @@
     <section id="team-container">
       <div id="team-container-inner">
         <h1 class="green">Our Team</h1>
+        <br>
+        <p>
+          We are a team of Mechatronics Engineering students from the University of Waterloo.<br>
+          Together, we possess a wide variety of complementary skills needed to bring the keeper teacher to life.
+        </p>
         <div class="member">
           <img src="img/matt.png" class="img-circle">
           <h3>Mathieu</h3>
@@ -65,19 +72,64 @@
       </div>
     </section>
     <section id="about-container">
-      <div id="video-container">
-        <video id="video" preload="auto" autoplay="true" loop="loop" muted="muted">
-          <source src="media/DOG.mp4" type="video/mp4"> Your browser does not support the video tag.
-        </video>      
-      </div>
       <div id="about-container-inner">
-        <h1 class="white">About</h1>
+        <h1 class="white">About</h1><br>
+        <h3>The Product:</h3>
+        <p>
+          The keeper teacher is an autonomous soccer ball launching mechanism designed for use in keeper training drills.
+        <p><br>
+        <h3>The Need:</h3>
+          In order to validate the need for the keeper teacher,
+          we conducted a shooting accuracy study involving casual soccer players aged 20-22.<br>
+          Data was gathered on shot placement, keeper skill and accuracy on shots taken 18 yards from the net. 
+          From this, we found that:
+          <br><br>
+          <ul>
+            <li>Roughly <span class="green">35%</span> of shots missed the net when attempting to score on a goalie</li>
+            <li>Of the saves the goalkeeper made, <span class="green">88%</span> resulted in rebounds</li>
+            <li>Shooting accuracy on a 1x1m target was an average of <span class="green">25%</span></li>
+          </ul>
+        </p><br><br>
+        <h2 class="white"><b><i>Inaccurate shooting prevents keepers from recieving consistent training.</i></b></h2>
+        <h4 class="white">The keeper teacher will be designed to consistently and accurately deliver balls for use in repetitive drills.</h4>
+        <br><br>
+        <h3>Specifications:</h3>
+          We want to create a low-cost, easily operable keeper training mechanism with the following characteristics:
+          <br><br>
+          <ul>
+            <li> Able to shoot soccer balls autonomously from at least 18 yards with reasonable pace</li>
+            <li> Holds at least 3 balls</li>
+            <li> Shoots with a frequency of at least 0.25 Hz</li>
+            <li> Able to hit a 1x1m target 18 yards away 90% of the time</li>
+            <li> Powered by wall outlet or battery with at least 1 hour battery life</li>
+            <li> Operable in light rain</li>
+          </ul>
       </div>
     </section>
     <section id="design-container">
       <div id="design-container-inner">
-        <h2><b><i>Inaccurate shooting prevents keepers from recieving consistent training.</i></b></h2>
-        <h4>The goalkeeper trainer will be designed to consistently and accurately deliver balls for use in repetitive drills.</h4>
+        <h1 class="green">Design</h1>
+        <div class='design'>
+          <img src="img/prelim-design.png" class="img-thumbnail inline">
+          <div class="inline list">
+            <h2>Preliminary Design:</h2>
+            <ul>
+              <li>Fly wheels for ball launching</li>
+              <li>Capable of adjustable pitch and yaw - changes ball launch direction</li>
+            </ul>
+          </div>
+        </div>
+        <div class='design'>
+          <img src="img/secondary-design.png" class="img-thumbnail inline">
+          <div class="inline list">
+            <h2>Secondary Design:</h2>
+            <ul>
+              <li> Flexible wheels for increased pressure on ball</li>
+              <li> Linear actuator for pitch - high accuracy needed for small angle changes</li>
+              <li> Turn table at bottom for yaw - support brackets to stabalize during rotation</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
     <section id="contact-container">
