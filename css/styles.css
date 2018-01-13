@@ -160,6 +160,11 @@ body {
     padding: 10px;
 }
 
+.sponsor-logo{
+    height: 150px;
+    width: 150px;
+}
+
 @media (max-width: 374px) {
     .divider{display:none;}
     #home-link-container{margin-top:30vh;}
